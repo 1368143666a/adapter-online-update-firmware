@@ -1,8 +1,8 @@
 {
   "payload": {
     "schemaVersion": 1,
-    "revision": 1788433357797,
-    "generatedUnix": 1788433357,
+    "revision": 1788433374140,
+    "generatedUnix": 1788433374,
     "policies": [
       {
         "id": 2,
@@ -32,8 +32,37 @@
           ],
           "rollbackNotice": "回退可能移除新版本功能，请确认后再继续"
         }
+      },
+      {
+        "id": 3,
+        "revision": 1,
+        "source": "SERIAL",
+        "serial": "211026170003",
+        "status": "ACTIVE",
+        "firmware": {
+          "version": {
+            "raw": "00263602",
+            "friendly": "26.36.2"
+          },
+          "size": 618480,
+          "md5": "E79EFB4AEC7ECC6EA962390B315D982F",
+          "sha256": "8A8D4306510B2173A253BFA87739A75A2764C388A5082AD9DEEC8F0FCA3EC6CD",
+          "deviceType": "2110",
+          "idMask": "00000000",
+          "hardwareMin": "01",
+          "hardwareMax": "01",
+          "minClientVersion": "0.1.0",
+          "downloadUrl": "https://github.com/1368143666a/adapter-online-update-firmware/releases/download/adapter-v00263602/adapter-00263602.bin"
+        },
+        "notice": {
+          "title": "适配器有一个可选版本",
+          "summary": [
+            "管理员已为目标范围指定版本"
+          ],
+          "rollbackNotice": "回退可能移除新版本功能，请确认后再继续"
+        }
       }
     ]
   },
-  "signature": "9445981A70177608209ACDBE76538C3EF8797F84BBB5DC4D206A218EF791569097D251E1D80494DB140D10E7991EF793F3CA2432B2A0CD7FC00D6946ECE26E00"
+  "signature": "074AE04267CC7DD1E1902938DCB484119A7F748BB7576F349AB206A16A90A53AE513A1DD49E8F52E7F598B906CDF6DCA603604B4C78199384D6A890BC408A70E"
 }
