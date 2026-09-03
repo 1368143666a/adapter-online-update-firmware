@@ -1,14 +1,14 @@
 {
   "payload": {
     "schemaVersion": 1,
-    "revision": 1788438553737,
-    "generatedUnix": 1788438553,
+    "revision": 1788438612890,
+    "generatedUnix": 1788438612,
     "policies": [
       {
         "id": 4,
-        "revision": 5,
+        "revision": 6,
         "source": "GLOBAL",
-        "status": "ACTIVE",
+        "status": "PAUSED",
         "firmware": {
           "version": {
             "raw": "00263602",
@@ -34,5 +34,5 @@
       }
     ]
   },
-  "signature": "4E91D7282C17712FAE8F4EC749099D1968972F4A8F29EBC5A13B8694F7F9EA2012E578E31DD11E7FA8282F95CC0222DA4FA7271195158D0433768CD9EC7D4A0C"
+  "signature": "15CE9760B6954AEF6C6E0646DA978D6F3CA80CAC7CA85A67C8E7C02B93A9FDF420FD3C75A9057F3E5B480DFE35E63A87F031547F77554064050B276DEA20EC01"
 }
